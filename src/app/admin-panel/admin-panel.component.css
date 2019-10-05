@@ -1,0 +1,10 @@
+.albumImage{
+    width: 100%;
+}
+
+.cardContent{
+    text-align: center;
+    padding: 1%;
+    width: 25rem; 
+    margin: 1%
+}

@@ -1,0 +1,14 @@
+<div class="container bg-warning">
+    <div class="row">
+        <div class="card w-25 bg-success cardContent" *ngFor="let album of discList">
+            <img src={{album.image}} class="card-img-top albumImage" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">{{album.album}}</h4>
+                <p class="card-text">{{album.band}}</p>
+            </div>
+            <div class="card-footer bg-dark">
+                <a href="#" class="btn btn-success">Add: ${{album.price}}</a>
+            </div>
+        </div>
+    </div>
+</div>
